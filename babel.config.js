@@ -8,7 +8,7 @@ module.exports = function (api) {
         }],
         "@babel/preset-react"
     ];
-    const plugins = ['macros'];
+    const plugins = ['macros', "babel-plugin-styled-components"];
 
     return {
         presets,
